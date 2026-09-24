@@ -5,10 +5,10 @@ William Hamill & Erin Cummings.
 
 Static HTML site (v3): Home, Photos, Schedule, Travel, RSVP, Registry, FAQ.
 
-## Live preview (GitHub Pages)
+## Live preview (willerin.wedding)
 
 After Pages is enabled on `main` / root:
-https://nubbybottomboy.github.io/william-erin-wedding/
+https://willerin.wedding/
 
 ## Photos
 
