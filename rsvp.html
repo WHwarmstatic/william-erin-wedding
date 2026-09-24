@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>RSVP — William & Erin</title><link rel="stylesheet" href="css/styles.css" /></head>
+<body>
+<header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">W &amp; E</a><button class="menu-toggle" aria-expanded="false">Menu</button><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="photos.html">Photos</a></li><li><a href="schedule.html">Schedule</a></li><li><a href="travel.html">Travel &amp; Stay</a></li><li><a href="rsvp.html" aria-current="page">RSVP</a></li><li><a href="registry.html">Registry</a></li><li><a href="faq.html">FAQs</a></li></ul></div></header>
+<section class="page-hero wrap"><p class="kicker">Kindly reply</p><h1>RSVP</h1><div class="divider"></div><p class="lede" style="margin:18px auto 0">Please respond by May 1, 2027.</p></section>
+<section class="section"><div class="wrap" style="max-width:720px">
+<p class="note" style="margin-bottom:22px">This starter form saves answers in the browser only so you can preview the page. Before invitations go out, connect it to Tally, Google Forms, Zola, or email.</p>
+<form id="rsvp-form" class="card">
+<div class="form-row"><div><label>Full name<input name="name" required placeholder="Guest name" /></label></div><div><label>Email<input type="email" name="email" required placeholder="you@email.com" /></label></div></div>
+<label>Will you attend?<select name="attending" required><option value="">Select</option><option>Joyfully accepts</option><option>Regretfully declines</option></select></label>
+<label>Number of guests (including you)<select name="guests"><option>1</option><option>2</option></select></label>
+<label>Meal notes or allergies<textarea name="notes" placeholder="Anything we should know"></textarea></label>
+<button class="btn btn-solid" type="submit">Send RSVP</button>
+<p id="rsvp-status" class="note" hidden></p>
+</form></div></section>
+<footer><p class="mono">William &amp; Erin</p><p>June 12, 2027 · Richmond, Virginia</p></footer>
+<script src="js/main.js"></script>
+</body></html>
